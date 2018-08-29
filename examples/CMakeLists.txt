@@ -7,11 +7,11 @@ endif()
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../src)
 include_directories(${CMAKE_CURRENT_BINARY_DIR}/../src)
 
-add_executable(demo demo.cpp)
-target_link_libraries(demo ncnn )
+#add_executable(demo demo.cpp)
+#target_link_libraries(demo ncnn )
 
-#add_executable(squeezenet squeezenet.cpp)
-#target_link_libraries(squeezenet ncnn ${OpenCV_LIBS})
+add_executable(squeezenet squeezenet.cpp)
+target_link_libraries(squeezenet ncnn ${OpenCV_LIBS})
 #
 #add_executable(fasterrcnn fasterrcnn.cpp)
 #target_link_libraries(fasterrcnn ncnn ${OpenCV_LIBS})
